@@ -15,6 +15,8 @@ public class BrowsersTest {
 		driver.get("https://www.facebook.com/");
 		
 		System.out.println(driver.getTitle());
+
+		// Here you have continue automating the username, password and login button.
 		
 		driver.close();
 		
